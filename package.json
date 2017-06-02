@@ -1,8 +1,22 @@
 {
-  "name": "live-nse-stock",
-  "version": "0.0.1",
+  "name": "quote-stream",
+  "version": "0.3.0",
+  "description": "Push JSON stock quotes in real-time over websockets",
+  "main": "server.js",
   "dependencies": {
-    "express": "2.2.0"
-  }
+    "cors": "2.8.1",
+    "express": "3.21.2",
+    "socket.io": "1.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nodesocket/quote-stream.git"
+  },
+  "author": "Justin Keller",
+  "license": "Apache-2.0"
 }
-
